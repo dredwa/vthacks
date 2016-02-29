@@ -1,9 +1,18 @@
-# Travel One
-The purpose of this application is to give users the options to plan the best trips
-to fit their budget and properly and easily allocate their money to save for their
-dream destinations. This app uses Capital One's Nessie Hackathon API, the Sabre Developer API and
-the Google Places API. The backend uses a RESTful API built with Ruby on Rails to communicate with
-a front end implemented in Angular.js.
+##Travel One
+The purpose of this application is to give users the options to plan the best trips to fit their budget and properly and easily allocate their money to save for their dream destinations. This app uses **Capital One's Nessie Hackathon API**, **the Sabre Developer API** and the **Google Places API**. The backend uses a RESTful API built with **Ruby on Rails** to communicate with a front end implemented in **Angular.js**.
+This application was created by Daniel Edwards, Will Theuer, Eyosyas Dagnachew and Khauri McClain and won the first place prize for the Capital One API challenge at VTHacks III in February, 2016.
+##Inspiration
+We entered the hackathon with the intent of taking on coding challenges offered by sponsors at the event. The Capital One Nessie API stood out to us as an intuitive and straightforward API that would enable us to put our main focus towards building a product that would make the most of the API as well as any other tools we chose to use. We decided on an application to assist in Travel planning because it had a clear use of the API and allowed us to try using other external APIs to assist in the scheduling, pricing and other aspects of developing a travel itinerary for users. We chose to use the Sabre Developer API due to the versatility of search options available for plane tickets and the Google Places API to enable us to pick out locations of interest to assist in planning the overall trip. Our plan was to use the Nessie API to allow customers to build user input centered plans for both their travel expenses and separating out savings into special travel accounts in order to assist in budgetary efforts.
+
+##Challenges
+We faced a number of challenges in our implementation of this project. Our experience with our eventual development tools of choice varied dramatically and a good portion of our time was spent learning how to use Ruby on Rails and Angular as well as trying to learn the three external APIs. We also encountered difficulties with authorization and trying to design our system to function around user logins and passwords. Despite these obstacles however, we were able to complete a fully functional implementation of our initial idea.
+
+##Accomplishments
+As a team, we were proud of our ability to bring together the front end and back end of our project which we had designed together but built separately. Creating a complete project that interfaced with three different APIs, each with their own idiosyncrasies, was an ambitious task but our success over the course of the weekend was motivating and exciting. It was a fulfilling experience building this system from scratch and seeing it come to life and fulfill our aspirations was inspirational.
+
+##The Future of Travel One
+While our project was able to fulfill most of our initially planned features, there remains room for future improvement. Our difficulties with authentication led us to leave out our planned userid/login suite and we were unable to complete all of our desired automatic account management features. We are nonetheless proud of the product that we have completed and are grateful for the opportunity to participate in this event.
+
 
 #### GET /api/vacations
 Returns the vacations planned for the current user.
